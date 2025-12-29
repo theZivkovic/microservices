@@ -1,0 +1,31 @@
+### Get items
+GET http://localhost:5246/api/items
+
+
+### Create item
+POST http://localhost:5246/api/items
+Content-Type: application/json 
+
+{
+    "title": "dsds",
+    "body": "dsdsds"
+}
+
+
+
+### Get audit logs
+GET http://localhost:3000/api/audit-logs
+
+
+### Create audit log
+POST http://localhost:3000/api/audit-logs
+Content-Type: application/json 
+
+{
+    "event_type": "item.created",
+    "payload": {
+        "id": "someuuid"
+    }
+}
+
+

@@ -1,0 +1,26 @@
+### Get items
+GET http://localhost:80/api/items
+Host: test.local
+
+### Delete item
+DELETE http://localhost:80/api/items/2c9316c0-d49b-4aca-84b0-37ef89ccbfb9
+Host: test.local
+Content-Type: application/json 
+
+
+### Create item
+POST  http://localhost:80/api/items
+Host: test.local
+Content-Type: application/json 
+
+{
+    "title": "tsaa",
+    "body": "fffaa"
+}
+
+### Get audit logs
+GET http://localhost:80/api/audit-logs
+Host: test.local
+
+
+

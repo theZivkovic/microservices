@@ -1,0 +1,12 @@
+[submodule "audit-logs-service"]
+	path = audit-logs-service
+	url = https://github.com/theZivkovic/microservices-audit-logs
+[submodule "items-service"]
+	path = items-service
+	url = https://github.com/theZivkovic/microservices-items
+[submodule "migrations-job"]
+	path = migrations-job
+	url = https://github.com/theZivkovic/microservices-migrations
+[submodule "helm-charts"]
+	path = helm-charts
+	url = https://github.com/theZivkovic/microservices-charts
